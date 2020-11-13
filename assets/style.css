@@ -1,0 +1,62 @@
+#header {
+  color:#06f0f0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#top {
+  position: fixed;
+  color: black !important;
+}
+
+.bg-dark  {
+  color: black;
+}
+
+
+.backgroundimg {
+  background-image: url("./luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0%;
+}
+
+#about-img {
+  justify-content: center;
+  size: 25%;
+}
+
+#about {
+  text-align: left;
+}
+
+
+.headline {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  border: 20px black;
+  background-color: rgba(8, 170, 245, 0.9);
+  padding: 20px 20px;
+  align-self: center;
+  color: black;
+}
+
+
+#footer {
+  color:#06f0f0;
+  position: sticky;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#moon {
+  text-align: right;
+  color:#06f0f0;
+}
+
+
