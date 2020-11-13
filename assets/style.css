@@ -1,38 +1,45 @@
 #header {
-  color:#06f0f0;
+  color:rgba(8, 170, 245, 1);
   font-family: 'Josefin Sans', sans-serif;
 }
 
-#top {
+.navbar {
   position: fixed;
-  color: black !important;
+  z-index: 1;
 }
-
-.bg-dark  {
-  color: black;
-}
-
 
 .backgroundimg {
   background-image: url("./luca-bravo-g_LG9LGyTk8-unsplash.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   margin: 0%;
 }
 
-#about-img {
-  justify-content: center;
-  size: 25%;
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
+
 
 #about {
   text-align: left;
+  padding-top: 7px;
+  padding-left: auto;
+  margin-right: auto;
 }
 
+.headshot {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
 
 .headline {
   text-align: center;
@@ -45,13 +52,21 @@
   padding: 20px 20px;
   align-self: center;
   color: black;
+} 
+
+a {
+  color: black;
+}
+
+#bottom {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 #footer {
-  color:#06f0f0;
-  position: sticky;
-  font-family: 'Josefin Sans', sans-serif;
+  color:rgba(8, 170, 245, 1);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #moon {
@@ -60,3 +75,12 @@
 }
 
 
+/* Portfolio page */
+
+h2, h6 {
+  text-align: center;
+}
+
+#portfolio-img {
+  align-items: center;
+}

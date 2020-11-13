@@ -13,115 +13,81 @@
 </head>
 
 <body>
+  <!--Background image-->
+  <div class="row backgroundimg">
+
 <!--Nav bar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="top">
-    <a class="navbar-brand" href="#" id="header">Joel Straley</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" id="header">Joel Straley</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
         </li> 
       </ul>
-    </div>
+  </div>
   </nav>
 
-  <div class="row backgroundimg">
- 
+  
+<!--Main container-->
+  <main class="wrapper">
   <div class="container rounded">
-  <div class="row">
-    <div class="col-12">
-    
-    </div>
-    </div>
-
-
     <!-- Heading Row -->
-
-
-      <div class="row">
-          <div class="col-12">
-            <div class="headline">
-              <h1>About Me</h1>        
+            <div class="row">
+                <div class="col-12">
+                  <div class="headline">
+                    <h1>About Me</h1>      
+                  </div>  
+                </div>
+            </div>
+    <!--Image and About Me paragraph-->
+      <section>
+            <div class="row">
+                <div class="col-xs-3 col-md-3 col-lg-3">
+                  <div class="mx-auto" style="max-width: 100%;">
+                    <img src="./assets/about-me-headshot.jpg" alt="Joel Straley Headshot" class="img-fluid rounded headshot"/>
+                  </div>
+                </div>
+                <div class="col-xs-9 col-md-9 col-lg-9" id="about">
+                    <p>Joel Straley is currently enrolled in the Columbia Engineering Coding Bootcamp to become a Full Stack Web Developer. <br><br>His previous experience is in Operational Logistics. During the COVID-19 pandemic he worked with The Migrant Kitchen to build a dynamic logistical strategy to deliver 1,000 meals a day, six days a week to NYC residents in all 5 burroughs.
+                    <br><br> Previosly, he was a Vehicle Operations Specialist for Uber where he stared as a Driver Support Representative. His focus was as a liason between Uber, their 5 primary Vehicle rental providers and the Taxi and Limousine Commision. This was vital in laying the logisitcal groundwork to help increase the availability of commercial Wheelchair Assessible vehicles in NYC.</p>
+                 </div>
+            </div>
+    <!--Contact links-->      
+            <div class="row bottom">
+              <div class="col-5">
               </div>
-          </div>
-      </div>
-  
-             
-
-      
-      <div class="row">
-       <div class="col-xs-2 col-md-3 col-lg-3">
-        <span class="border border-info">
-        <img id="about-img" src="./assets/JoelStraley NEW Headshot 2.jpg" alt="Joel Straley Headshot" class="rounded">
-      </span>
-      </div>
-      <!-- /.col-lg-8 -->
-        <div class="col-xs-10 col-md-9 col-lg-9" id="about">
-          <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-        </div>
-      <!-- /.col-md-4 -->
-      </div>
-    
-
-    <div class="row">
-    
-        <div class="col-12">
-          <i class="fab fa-twitter fa-2x"></i>
-          <i class="fab fa-github fa-2x"></i>
-          <i class="far fa-envelope fa-2x"></i>
-        </div>
-    </div>
-
-    </div> 
-
-
-
- <!--Title-->
-     
- <!--Image-->
-           <!--div class="row">
-            <div class="col-3">
-              <img src="https://dmdlnu87i51n1.cloudfront.net/v1/uk/ck9xejnk5axi801332nsw3pm3/0x0:1600x1080/960x960/kraftwerk_florian_schneider_has_died_2.jpg" alt="Kraftwerk" width="150px" height="150px">
+               <div class="col-3">
+                  <div class="mx-auto" style="width: 200px;">
+                    <a href="https://www.linkedin.com/in/joel-straley-559aab97/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://twitter.com/joelstraley" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://github.com/Joelstraley" target="_blank">
+                    <i class="fab fa-github fa-2x"></i></a>
+                    <a href="mailto:joelstraley@gmail.com" target="_blank">
+                    <i class="far fa-envelope fa-2x"></i></a>
+                  </div>
+               </div>  
+              <div class="col-4">
+              </div>
             </div>
+       </section>
+  </div>
+ </main> 
 
- <!-Paragraph-->
-            <!--div class="col-9">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-              posuere sem congue a.
-             </p>
-            </div>
-          </div>
-          </div>
-
-
-
-        </div>
-      </div>
-
-  
-<!-footer-->
-  <!---footer class="py-7 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Joel Straley 2020</p>
-    </div>
-  </footer>-->
-
+ <!--Footer-->
+<div class="wrapper">
+<footer>
   <nav class="navbar fixed-bottom navbar-dark bg-dark">
     <a class="navbar-brand" href="#" id="footer"> &copy; 2020</a>
     <a href="https://en.wikipedia.org/wiki/Moon">
@@ -129,18 +95,14 @@
     </i>
     </a>
   </nav>
-        
-
-
+</footer>
+</div>
+</div>
 
 <!--Bootstrap js for Dropdown on Navbar-->   
-       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1b731901c2.js" crossorigin="anonymous"></script>
-
-
-
 </body>
 </html>
