@@ -1,3 +1,5 @@
+/* Template for all pages */
+
 #header {
   color:rgba(8, 170, 245, 1);
   font-family: 'Josefin Sans', sans-serif;
@@ -20,12 +22,33 @@
 }
 
 .wrapper {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vh;
+  margin-right: 10vh;
   margin-top: 20vh;
   margin-bottom: 20vh;
 }
 
+.container {
+  border: 20px black;
+  background-color: rgba(8, 170, 245, 0.9);
+  padding: 20px 20px;
+  align-self: center;
+  color: black;
+  flex-wrap: wrap;
+} 
+
+#bottom {
+  margin-left: auto;
+   margin-right: auto;
+   position: inherit;
+ }
+ 
+ #footer {
+   color:rgba(8, 170, 245, 1);
+     font-family: 'Josefin Sans', sans-serif;
+ }
+
+/* About me  page */
 
 #about {
   text-align: left;
@@ -46,32 +69,8 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.container {
-  border: 20px black;
-  background-color: rgba(8, 170, 245, 0.9);
-  padding: 20px 20px;
-  align-self: center;
-  color: black;
-} 
-
 a {
   color: black;
-}
-
-#bottom {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-#footer {
-  color:rgba(8, 170, 245, 1);
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-#moon {
-  text-align: right;
-  color:#06f0f0;
 }
 
 
@@ -82,5 +81,15 @@ h2, h6 {
 }
 
 #portfolio-img {
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* right-corner easter egg*/
+
+#moon {
+  text-align: right;
+  color:#06f0f0;
 }
