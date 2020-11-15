@@ -18,6 +18,9 @@ Repository contains the following:
       * -headshot image
 
 ## Screenshots
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-About.png)
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Portfolio.png)
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Contact.png)
 
 
 
