@@ -12,7 +12,7 @@ Repository contains the following:
 * -portfolio.html
 * -contact.html
 * -README.md
-* assets (folder)
+* assets (folder): 
       * -style.css 
       * -background image
       * -headshot image
