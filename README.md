@@ -19,7 +19,7 @@ Repository contains the following:
 
 ## Screenshots
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-About.png)
-![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-portfolio.png)
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Portfolio.png)
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Contact.png)
 
 
