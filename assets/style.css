@@ -5,6 +5,11 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .navbar {
   position: fixed;
   z-index: 1;
@@ -74,10 +79,18 @@ a {
 }
 
 
+
+
 /* Portfolio page */
 
 h2, h6 {
   text-align: center;
+}
+
+.extURL {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  color: darkblue;
 }
 
 #portfolio-img {
