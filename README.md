@@ -13,13 +13,13 @@ Repository contains the following:
 * contact.html
 * README.md
 * assets (folder): 
-      * style.css 
-      * background image
-      * headshot image
+      - style.css 
+      - background image
+      - headshot image
 
 ## Screenshots
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-About.png)
-![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Portfolio.png)
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot%20-%20Portfolio(UPDATED).png)
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Contact.png)
 
 
