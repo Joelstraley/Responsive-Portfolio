@@ -8,14 +8,14 @@ Responsive Portfolio website made up of index (About Me), Porfolio and Contact h
 
 Repository contains the following: 
 
-* -index.html (site is live at: https://joelstraley.github.io/Responsive-Portfolio/index.html)
-* -portfolio.html
-* -contact.html
-* -README.md
+* index.html (site is live at: https://joelstraley.github.io/Responsive-Portfolio/index.html)
+* portfolio.html
+* contact.html
+* README.md
 * assets (folder): 
-      * -style.css 
-      * -background image
-      * -headshot image
+      * style.css 
+      * background image
+      * headshot image
 
 ## Screenshots
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-About.png)
