@@ -18,7 +18,10 @@ Repository contains the following:
       - headshot image
 
 ## Screenshots
+Dark mode: 
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-About.png)
+Light mode: 
+![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot%20-%20About%20Me%20-%20Bright.png?raw=true)
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot%20-%20Portfolio(UPDATED).png)
 ![alt text](https://github.com/Joelstraley/Responsive-Portfolio/blob/main/Screenshot-Contact.png)
 
