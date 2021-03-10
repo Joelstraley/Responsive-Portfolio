@@ -8,23 +8,26 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 20px;
 }
 
 .navbar {
   position: fixed;
   z-index: 1;
   color: black;
+  background-color: black;
 }
 
 .backgroundimg {
   background-image: url("../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
   background-size: cover;
-  background-repeat: repeat-y;
-  background-position: center;
-  height: 100%;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 200%;
   width: 100%;
-  overflow: visible;
+ overflow: visible; 
   margin: 0%;
+  vertical-align:bottom;
 }
 
 .wrapper {
@@ -36,11 +39,16 @@ body {
 
 .container {
   border: 20px black;
-  background-color: rgba(8, 170, 245, 0.8);
+  background-color: rgba(8, 170, 245, 0.7);
   padding: 20px 20px;
   align-self: center;
   color: black;
   flex-wrap: wrap;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* background: rgba( 5, 156, 217, 0.15 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 11.0px );
@@ -70,6 +78,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 .headshot {
+    content:url("../photos/about-me-headshot.jpg");
     width: auto;
     height: auto;
     max-width: 90%;
@@ -113,7 +122,7 @@ h2, h6 {
 
 /* right-corner easter egg*/
 
-#moon {
+.moonsun {
   text-align: right;
   color:#06f0f0;
 }
