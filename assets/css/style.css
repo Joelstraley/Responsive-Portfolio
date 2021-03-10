@@ -13,10 +13,11 @@ body {
 .navbar {
   position: fixed;
   z-index: 1;
+  color: black;
 }
 
 .backgroundimg {
-  background-image: url("../luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-image: url("../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
   background-size: cover;
   background-repeat: repeat-y;
   background-position: center;
@@ -35,11 +36,17 @@ body {
 
 .container {
   border: 20px black;
-  background-color: rgba(8, 170, 245, 0.9);
+  background-color: rgba(8, 170, 245, 0.8);
   padding: 20px 20px;
   align-self: center;
   color: black;
   flex-wrap: wrap;
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 } 
 
 #bottom {
@@ -93,11 +100,15 @@ h2, h6 {
   color: darkblue;
 }
 
-#portfolio-img {
+ #portfolio-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+} 
+
+.tech {
+  color: #181818; 
 }
 
 /* right-corner easter egg*/
